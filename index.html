@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manobha</title>
+  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <body>
+    <!--Download Curriculam Modal -->
+    <div class="modal fade" id="dwnloadModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Download Notes</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="bannerForm shadow-lg p-3">
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Enter your email" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Mobile Number</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                  <input type="text" class="form-control" placeholder="Enter your mobile number" />
+                </div>
+              </div>
+              <div class="mb-3">
+                <button>Registration now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Book Demo Class Modal -->
+    <div class="modal fade" id="bookDemo">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Admission Open</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="bannerForm shadow-lg p-3">
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Mobile Number</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                  <input type="text" class="form-control" placeholder="Enter your mobile number" />
+                </div>
+              </div>
+              <div class="mb-3">
+                <button>Registration now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header -->
+    <header class="container-fluid position-sticky top-0 bg-dark shadow-lg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+              <a href="home.html" class="navbar-brand">
+                <img src="images/logo.jpg" alt="" class="img-fluid" />
+                <div class="px-2">
+                  <p>Authorised Institute of <br /><span>Tally Education</span></p>
+                </div>
+              </a>
+              <div class="col-lg-6">
+                <div class="btn-outer d-flex gap-3 justify-content-end">
+                  <button class="btn whatsappbtn"><i class="fa-solid fa-phone"></i>9073064440</button>
+                  <button class="btn call">Enquire Now <i class="fa-solid fa-arrow-right px-2"></i></button>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <i class="fa-brands fa-square-whatsapp whatsappLogo"></i>
+    <!-- Section 1 -->
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+      <div class="container">
+        <div class="row justify-content-between gy-4 align-items-center">
+          <div class="col-lg-6">
+            <div class="bannerContent">
+              <h1>Career Opportunities <br />with <span>Tally Education</span></h1>
+              <p class="py-1">Choose the career path you want - we have the course you need, Register yourself today.</p>
+              <ul class="m-0 py-3">
+                <li class="mb-2"><i class="fa-solid fa-circle-check me-2"></i>Master Accountant using Tally</li>
+                <li class="mb-2"><i class="fa-solid fa-circle-check me-2"></i>Empower Your Career with Tally Certification</li>
+                <li class="mb-2"><i class="fa-solid fa-circle-check me-2"></i>Gain comprehensive skills with our certification</li>
+              </ul>
+              <div class="bannerContentBtn d-flex gap-3">
+                <button class="py-2 px-4" data-bs-toggle="modal" data-bs-target="#bookDemo">Apply Now <i class="fa-solid fa-arrow-right px-2"></i></button>
+                <button class="py-2 px-4" data-bs-toggle="modal" data-bs-target="#dwnloadModal"><i class="fa-solid fa-download me-2"></i> Download Brochure</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <form action="" class="bannerForm shadow-lg">
+              <h2 class="pb-2 fw-bold">Get in Touch</h2>
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Enter your email" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Mobile Number</label>
+                <div class="input-group">
+                  <span class="input-group-text" id="basic-addon1">+91</span>
+                  <input type="text" class="form-control" placeholder="Enter your mobile number" />
+                </div>
+              </div>
+              <div class="mb-3">
+                <button>Registration now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container shadow-lg mt-5 counterSection">
+        <div class="row row-cols-lg-5 row-cols-2 p-4 text-center">
+          <div class="col">
+            <p>Duration</p>
+            <h6>12 Months</h6>
+          </div>
+          <div class="col">
+            <p>Placement Support</p>
+            <h6>100%</h6>
+          </div>
+          <div class="col">
+            <p>Easy EMI</p>
+            <h6>Available</h6>
+          </div>
+          <div class="col">
+            <p>Class Mode</p>
+            <h6>Offline</h6>
+          </div>
+          <div class="col">
+            <p>Extra Benefits</p>
+            <h6>Practice Class</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 2(courses) -->
+    <section class="container-fluid highlight-section pt-5">
+      <div class="container">
+        <div class="row py-4">
+          <div class="col-12">
+            <h2 class="fw-bold">Popular Course</h2>
+            <span>Enroll yourself to our courses and achive your dreams in your IT Career</span>
+          </div>
+        </div>
+        <div class="row courseSection">
+          <div class="col-lg-3 col-sm-6 col-12 py-2">
+            <div class="card p-3" style="width: 17rem; height: 24rem">
+              <img src="images/Tally Professional.png" class="card-img-top" alt="Tally Professional" />
+              <div class="card-body py-4">
+                <h5 class="card-title fw-bold">Tally Professional</h5>
+                <p class="card-text">A Complete Guide on Advanced Business Accounting and Indian Taxation.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12 py-2">
+            <div class="card p-3" style="width: 17rem; height: 24rem">
+              <img src="images/Digital Marketing.jpg" class="card-img-top" alt="Digital Marketing" />
+              <div class="card-body py-4">
+                <h5 class="card-title fw-bold">Digital Marketing</h5>
+                <p class="card-text">Learn SEO, Social Media, Content Strategy, and Paid Advertising.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12 py-2">
+            <div class="card p-3" style="width: 17rem; height: 24rem">
+              <img src="images/Data Analysis.webp" class="card-img-top" alt="Digital Marketing" />
+              <div class="card-body py-4">
+                <h5 class="card-title fw-bold">Data Analysis</h5>
+                <p class="card-text">Empowers better decisions, career growth, problem-solving, and data-driven thinking.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12 py-2">
+            <div class="card p-3" style="width: 17rem; height: 24rem">
+              <img src="images/web design.jpg" class="card-img-top" alt="Digital Marketing" />
+              <div class="card-body py-4">
+                <h5 class="card-title fw-bold">Web Development</h5>
+                <p class="card-text">Create websites, build digital products and enhance your careers.</p>
+                <a href="#" class="btn btn-primary">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center py-5">
+            <button type="button" class="btn btn-success fw-bold">See All</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- accordian section -->
+    <section class="container-fluid py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="text-center fw-bold pb-3">Top Course FAQs</h2>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Why we learn Tally Professional Course?</button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    TallyProfessional certifies individuals to possess a deeper comprehension of sophisticated accounting techniques. This certification combines modular employability abilities with
+                    computerised Accounting, Finance, and Administration alongside the expertise of TallyPrime. It covers topics from intermediate to advanced financial accounting concepts, inventory,
+                    GST, TDS, TCS transactions and Payroll Management with Income Tax. The practical applications will be done on the new TallyPrime software to keep you at par with the new releases.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Why we choose Digital Marketing?</button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    Digital marketing involves using online platforms, tools, and strategies like SEO, content creation, social media, email, PPC ads, and analytics to promote products, build brand
+                    awareness, and engage with target audiences.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Why we learn Data Analysis?</button>
+                </h2>
+                <div id="faq3" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    A data analysis course teaches you how to collect, organize, and interpret data to find patterns and make smart decisions. You'll learn tools and techniques to work with data
+                    effectively.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">Why we learn Web Development?</button>
+                </h2>
+                <div id="faq4" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    A data analysis course teaches you how to collect, organize, and interpret data to find patterns and make smart decisions. You'll learn tools and techniques to work with data
+                    effectively.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- map -->
+    <section class="container-fluid py-5">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <h2 class="text-center fw-bold pb-3">Our Location</h2>
+          <div class="col-10">
+            <iframe
+              width="950"
+              height="500"
+              frameborder="0"
+              style="border: 0"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBlmU3MOah9s2Rtuncmm-FLujMJ42m1i9o
+								&amp;q=MANOBHA,DIAMOND HARBOUR,WEST BENGAL"
+              allowfullscreen="">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <!-- About -->
+          <div class="col-6 col-md-2 col-lg-3 col-xl-3 mx-auto mt-1 mt-md-3">
+            <h5 class="text-uppercase mb-4 fw-bold">Manobha</h5>
+            <p>Start Your Tech Career with Us</p>
+          </div>
+
+          <!-- Links -->
+          <div class="col-6 col-md-2 col-lg-2 col-xl-2 mx-auto mt-1 mt-md-3">
+            <h5 class="text-uppercase mb-4 fw-bold">Quick Links</h5>
+            <p><a href="#" class="text-white text-decoration-none">Home</a></p>
+            <p><a href="#" class="text-white text-decoration-none">Course</a></p>
+            <p><a href="#" class="text-white text-decoration-none">About</a></p>
+            <p><a href="#" class="text-white text-decoration-none">FAQs</a></p>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-12 col-md-4 col-lg-3 col-xl-3 mx-auto mt-5 mt-md-3">
+            <h5 class="text-uppercase mb-4 fw-bold">Contact</h5>
+            <p><i class="fas fa-home me-3"></i>Raynagar, Masjidpara Road, Diamond Harbour, West Bengal, India</p>
+            <p><i class="fas fa-envelope me-3"></i> xyz@gmail.com</p>
+            <p><i class="fas fa-phone me-3"></i> +91 9073064440</p>
+          </div>
+
+          <!-- Social -->
+          <div class="col-12 col-md-3 col-lg-4 col-xl-3 mx-auto mt-5 mt-md-3 text-center">
+            <h5 class="text-uppercase mb-4 fw-bold">Follow Us</h5>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/ManobhaDiamondHarbour" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <hr class="mb-3" />
+        <div class="row align-items-center">
+          <div class="col-12 mt-1">
+            <p class="text-center">Copyright © 2025 Manobha. All rights reserved.</p>
+          </div>
+          <div class="col-12 my-0">
+            <p class="text-center text-danger">Made by ❤ Souvik Mondal</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"></script>
+</html>
